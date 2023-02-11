@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Layout two</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+
+        }
+
+        .main {
+
+            margin: auto;
+
+
+
+
+        }
+
+        .grid {
+
+            display: grid;
+
+            grid-template-columns: 1fr 1fr 1fr;
+
+            color: #444;
+
+
+        }
+
+        .box {
+            background-color: bisque;
+            padding: 20px;
+            text-align: center;
+            
+            
+        }
+
+
+        #one {
+            grid-column: 1 / span 2;
+            background-color: #9BDA14;
+        }
+
+        #two {
+            grid-column: 3;
+            grid-row: 1 / span 2;
+            background-color: #09C0FA;
+            
+        }
+
+        #three {
+            grid-column: 1;
+            grid-row: 2;
+            background-color: #2F394E;
+            color: whitesmoke;
+        }
+
+        #four {
+            grid-column: 2;
+            grid-row: 2;
+            background-color: #D499E2;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="grid">
+            <div class="box" id="one">item-1 </div>
+            <div class="box" id="two">item-2 </div>
+            <div class="box" id="three">item-3</div>
+            <div class="box" id="four">item-4</div>
+        </div>
+    </div>
+</body>
+
+</html>

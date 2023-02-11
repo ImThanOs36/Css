@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        .grid {
+
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            height: 100vh;
+            background-color: #C1E4F0;
+            font-size: 2em;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        #item-1 {
+            grid-column: 2 / span 2;
+
+            background-color: #9BDA14;
+        }
+
+        #item-2 {
+            background-color: #C21531;
+            grid-column: 4;
+        }
+
+        #item-3 {
+            grid-column: 1;
+
+            grid-row: 1 /span 3;
+            background-color: #B9A6E0;
+        }
+
+        #item-4 {
+            grid-column: 2;
+            background-color: #5b8500;
+        }
+
+        #item-5 {
+            grid-column: 3;
+            background-color: #18A4E0;
+        }
+
+        #item-6 {
+            grid-column: 2;
+            background-color: #18A4E0;
+        }
+
+        #item-7 {
+            grid-column: 3;
+            background-color: #5b8500;
+        }
+
+        #item-8 {
+            background-color: #FF5976;
+            grid-column: 4;
+            grid-row: 2 /span 2;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <div class="grid">
+        <div class="item" id="item-1">item 1</div>
+        <div class="item" id="item-2">item-2</div>
+        <div class="item" id="item-3">item-3</div>
+        <div class="item" id="item-4">item-4</div>
+        <div class="item" id="item-5">item-5</div>
+        <div class="item" id="item-6">item-6</div>
+        <div class="item" id="item-7">item-7</div>
+        <div class="item" id="item-8">item-8</div>
+    </div>
+
+</body>
+
+</html>

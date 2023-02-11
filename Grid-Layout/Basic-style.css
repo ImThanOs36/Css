@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.fonts {
+    font-family: 'Caveat', cursive;
+    font-family: 'Didact Gothic', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+/* red-color-shades */
+
+
+.item {
+
+    background-color: #C21531;
+}
+
+
+
+
+/* gree-color-shades */
+.item {
+    background-color: #9BDA14;
+}
+
+.item {
+    background-color: #9CCD62;
+}
+
+/* yellow-color-shades */
+
+.item {
+    background-color: #F79F1A;
+}
+
+.item {
+    background-color: #E4DED2;
+}
+
+
+/* blue-pink-purple-color-shades */
+.item {
+    background-color: #C1E4F0;
+}
+
+.item {
+    background-color: #2F1A35;
+}
+
+.item {
+    background-color: #B9A6E0;
+}
+
+.item {
+    background-color: #FF5976;
+}
+
+.item {
+    background-color: #EAC9E2;
+}
+
+.item {
+    background-color: #BDADAE;
+}
+
+.item {
+    background-color: #CAAAF3;
+}
+
+.item {
+    background-color: #AAF0D1;
+}
+
+.item {
+    grid-column: 3;
+}
+
+.item {
+    background-color: #222D6D;
+}
+
+
+/* black-color-shades */
+
+.item {
+    background-color: #353739;
+}
+
+.item {
+    background-color: #242635;
+}
+
+/* white-color-shades */
