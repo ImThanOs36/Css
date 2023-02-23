@@ -6,7 +6,7 @@
 }
 body {
   overflow-x: hidden;
-  background: url(D:\Code\All-Codes\Web-Devolopment\Fortnite\image\ps5.jpg);
+  background: url(image\ps5.jpg);
 }
 .main-width {
   width: 1400px;
@@ -197,19 +197,6 @@ nav ul li.btn a:hover {
 }
 
 
-/* .container .buttons a {
-  text-decoration: none;
-  display: inline-flex;
-  padding:10px 20px;
-  margin: 40px 55px;
-  border: 2px solid #ff7700;
-  border-radius: 15px;
-  background-color: #ff7700;
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  font-size: 14px;
-  color: white;
-} */
 
 .container i{
   font-weight:600;
