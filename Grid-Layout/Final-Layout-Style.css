@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color: #C1E4F0;
+    background-color: #03001C;
 }
 
 .grid {
@@ -21,7 +21,7 @@ body {
 }
 
 .header-area {
-    background-color: hsl(194, 96%, 51%);
+    background-color: #301E67;
     grid-column: 1/span 5;
     grid-row: 1;
     display: grid;
@@ -106,7 +106,7 @@ a {
 }
 
 .poster {
-    background-color: #94e4ff;
+    background-color: #5B8FB9;
     padding: 1em;
     margin-bottom: 1em;
 
@@ -169,7 +169,7 @@ a {
 } */
 
 .post {
-    background-color: #D499E2;
+    background-color: #393053;
     padding: 2em;
     margin-bottom: 1em;
     border-radius: 1em;
@@ -211,7 +211,7 @@ a {
 }
 
 .para-1 {
-    background-color: floralwhite;
+    background-color: #5B8FB9;
     margin-bottom: 1em;
 }
 
